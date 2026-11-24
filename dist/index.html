@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f1e7">
+  <meta name="description" content="Small-batch bakes and custom orders from Flour Child Bakery in Wiscasset, Maine. See recent bakes and message Mariah about availability.">
+  <title>Flour Child Bakery — Wiscasset, Maine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Flour Child Bakery home">
+      <span class="brand-mark" aria-hidden="true">fc</span>
+      <span class="brand-name">flour child <small>bakery · wiscasset, maine</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#bakes">Recent bakes</a><a href="#story">Our story</a>
+    </nav>
+    <a class="header-cta" href="https://m.me/flourchildbakerymaine" target="_blank" rel="noreferrer">Ask about a bake <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> A licensed home bakery in Wiscasset</p>
+        <h1 id="hero-title">A little something <em>made by hand.</em></h1>
+        <p class="hero-intro">Small-batch bakes, family recipes and custom orders, made with love by Mariah in Maine.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="https://m.me/flourchildbakerymaine" target="_blank" rel="noreferrer">Ask about this week’s bakes <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#bakes">See recent bakes <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-note"><span class="note-dot"></span><span>Made to order<br><strong>Dates, pickup and pricing confirmed in a message</strong></span></div>
+      </div>
+      <figure class="hero-image">
+        <img src="assets/chocolate-cobbler-02.jpg" alt="A serving of a rich chocolate bake from Flour Child Bakery’s recent Facebook post">
+        <figcaption><span>FROM THE LATEST BAKE</span><span>Wiscasset, Maine · 2026</span></figcaption>
+        <span class="image-stamp" aria-hidden="true">baked<br>with care</span>
+      </figure>
+      <span class="hero-side-note" aria-hidden="true">FLOUR · FAMILY · A LITTLE JOY</span>
+    </section>
+
+    <section class="bakes section-wrap" id="bakes" aria-labelledby="bakes-title">
+      <div class="section-heading">
+        <div><p class="eyebrow"><span class="eyebrow-line"></span> FROM MARIAH’S KITCHEN</p><h2 id="bakes-title">A few recent <em>favorites.</em></h2></div>
+        <p class="section-description">A peek at recent bakes. The selection changes, so send Mariah a message to check what’s available or talk through a custom order.</p>
+      </div>
+      <div class="filter-row" role="group" aria-label="Filter recent bakes">
+        <button class="filter-chip is-active" type="button" data-filter="all" aria-pressed="true">Everything</button>
+        <button class="filter-chip" type="button" data-filter="cakes" aria-pressed="false">Cupcakes & cakes</button>
+        <button class="filter-chip" type="button" data-filter="cookies" aria-pressed="false">Cookies</button>
+        <button class="filter-chip" type="button" data-filter="fresh" aria-pressed="false">Fresh from the oven</button>
+        <span class="filter-caption">Recent posts · ask about availability</span>
+      </div>
+      <div class="bake-grid" id="bake-grid">
+        <article class="bake-card" data-category="fresh">
+          <div class="bake-photo"><img src="assets/chocolate-cobbler-01.jpg" alt="A freshly baked chocolate dessert in a glass baking dish" loading="lazy"><span class="photo-label">A RECENT BAKE</span></div>
+          <div class="bake-copy"><div class="card-topline"><span>01 / WARM & CHOCOLATEY</span><span aria-hidden="true">✳</span></div><h3>Fresh from the oven</h3><p>A new chocolate-rich bake shared from Mariah’s kitchen. Ask what this week’s bake is called and whether it’s available.</p><a href="https://m.me/flourchildbakerymaine" target="_blank" rel="noreferrer">Ask Mariah about it <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="bake-card" data-category="cakes">
+          <div class="bake-photo"><img src="assets/double-chocolate-cupcakes.jpg" alt="Six double chocolate cupcakes topped with chocolate frosting" loading="lazy"><span class="photo-label">DOUBLE CHOCOLATE CUPCAKES</span></div>
+          <div class="bake-copy"><div class="card-topline"><span>02 / A CHOCOLATE FAVORITE</span><span aria-hidden="true">✳</span></div><h3>Double chocolate cupcakes</h3><p>Chocolate on chocolate, made for sharing. Custom cake and cupcake requests are discussed directly with Mariah.</p><a href="https://m.me/flourchildbakerymaine" target="_blank" rel="noreferrer">Ask about a custom order <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="bake-card" data-category="cookies">
+          <div class="bake-photo"><img src="assets/cookies.jpg" alt="Small-batch cookies packed in two paper bags" loading="lazy"><span class="photo-label">SMALL-BATCH COOKIES</span></div>
+          <div class="bake-copy"><div class="card-topline"><span>03 / COOKIE JAR MOMENT</span><span aria-hidden="true">✳</span></div><h3>Cookies, made in batches</h3><p>Kitchen-sink cookies and other cookie bakes have appeared in recent posts. Message to see what’s on the counter now.</p><a href="https://m.me/flourchildbakerymaine" target="_blank" rel="noreferrer">Check this week’s selection <span aria-hidden="true">↗</span></a></div>
+        </article>
+      </div>
+      <p class="availability-note"><span aria-hidden="true">✳</span> Photos show recent public posts. Availability, sizes, pickup details and pricing are confirmed directly with the bakery.</p>
+    </section>
+
+    <section class="order-section" aria-labelledby="order-title">
+      <div class="order-inner">
+        <div class="order-copy"><p class="eyebrow"><span class="eyebrow-line"></span> CUSTOM ORDERS, MADE PERSONAL</p><h2 id="order-title">Tell Mariah what <em>you’re craving.</em></h2><p>Some orders start with a flavor, others with a reference photo or a celebration. Share your idea and work out the date, pickup and pricing together.</p><a class="button button-cream" href="https://m.me/flourchildbakerymaine" target="_blank" rel="noreferrer">Start a conversation <span aria-hidden="true">↗</span></a></div>
+        <ol class="order-steps">
+          <li><span>01</span><div><strong>Share your idea</strong><p>Tell Mariah what you have in mind.</p></div></li>
+          <li><span>02</span><div><strong>Plan the details</strong><p>Confirm what’s possible, along with the date and pickup.</p></div></li>
+          <li><span>03</span><div><strong>Confirm together</strong><p>Pricing is discussed directly before an order is set.</p></div></li>
+        </ol>
+      </div>
+      <div class="order-flour" aria-hidden="true">made<br>slowly<br>with love</div>
+    </section>
+
+    <section class="story section-wrap" id="story" aria-labelledby="story-title">
+      <div class="story-mark" aria-hidden="true"><span>F</span><i>✳</i></div>
+      <div class="story-copy"><p class="eyebrow"><span class="eyebrow-line"></span> A NOTE FROM WISCASSET</p><h2 id="story-title">Recipes with a little <em>history.</em></h2><p>Mariah grew up around family bakers and carries those familiar recipes into Flour Child Bakery. Today, she makes small-batch bakes from her licensed home bakery in Wiscasset, Maine.</p><a class="text-link" href="https://www.facebook.com/flourchildbakerymaine" target="_blank" rel="noreferrer">Meet Flour Child on Facebook <span aria-hidden="true">↗</span></a></div>
+      <div class="story-detail"><span class="detail-number">ME</span><p>Made in Wiscasset<br>with family recipes<br>and a little curiosity.</p><span class="detail-spark" aria-hidden="true">✳</span></div>
+    </section>
+
+    <section class="final-cta" aria-labelledby="final-title">
+      <div class="final-inner"><p class="eyebrow"><span class="eyebrow-line"></span> READY WHEN YOU ARE</p><h2 id="final-title">What sounds good <em>this week?</em></h2><p>Ask about the latest bakes or tell Mariah what you’d love for a special day.</p><a class="button button-dark" href="https://m.me/flourchildbakerymaine" target="_blank" rel="noreferrer">Message Flour Child Bakery <span aria-hidden="true">↗</span></a></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true">fc</span><span class="brand-name">flour child <small>bakery · wiscasset, maine</small></span></a><p>Concept preview built from recent public posts.<br>Confirm current items, pickup details and pricing directly with Mariah.</p><a href="mailto:flourchild207@gmail.com">flourchild207@gmail.com</a></footer>
+  <script src="app.js"></script>
+</body>
+</html>
